@@ -1,0 +1,82 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+body {
+    background-image: url("./images/Netflix_Background_Image.jpg");
+    color: #FFFFFF;
+}
+
+#container {
+    background-color: rgba(0,0,0,0.3);
+    margin: 30px 100px;
+}
+
+#title {
+    text-align: center;
+    font-family: 'Bowlby One SC', cursive;
+    font-size: 50px;
+    padding-top: 15px;
+    letter-spacing: 3px;
+}
+
+#title span{
+    color:#FF0000;
+}
+
+#description {
+    font-family: 'Sorts Mill Goudy', serif;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#survey_form {
+    width: 500px;
+    background-color: #000000;
+    height:auto;
+    margin:auto;
+    padding-top: 10px;
+}
+
+#name,
+#number,
+#email, 
+#dropdown {
+    margin-top: 15px;
+    height: 34px;
+    width: 400px;
+    padding-left: 10px;
+}
+
+#dropdown {
+    box-sizing: content-box;
+    resize:none;
+}
+
+.box {
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+textarea{
+    margin-top:10px;
+    padding-left: 5px;
+} 
+
+#submit {
+    background-color: #FF0000;
+    color: #FFFFFF;
+    font-size: larger;
+    height: 40px;
+    width:160px;
+    border:none;
+    border-radius: 50px;
+    cursor: pointer;
+    margin: 16px 0 16px 150px;
+}
+
+#submit:hover {
+    background-color: #FFFFFF;
+    color: #FF0000;
+}
